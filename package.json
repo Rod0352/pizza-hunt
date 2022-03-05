@@ -5,6 +5,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "watch": "nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
@@ -13,5 +14,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
